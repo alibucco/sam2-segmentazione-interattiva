@@ -1,0 +1,25 @@
+# Ambienti e impostazioni locali
+.venv/
+venv/
+.env
+.DS_Store
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Copia locale di SAM 2: viene installata separatamente seguendo il README.
+sam2/
+
+# Modelli, immagini personali, dataset e risultati generati
+checkpoints/
+images/
+data/
+dataset/
+datasets/
+results/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.mp4
