@@ -6,6 +6,12 @@ venv/
 .vscode/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+build/
+*.so
+*.dylib
 
 # Copia locale di SAM 2: viene installata separatamente seguendo il README.
 sam2/
